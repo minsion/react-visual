@@ -1,0 +1,71 @@
+{
+  "name": "react-visual-data",
+  "version": "1.1.0",
+  "private": true,
+  "homepage": ".",
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired --max-old-space-size=2048 build",
+    "test": "react-app-rewired test --env=jsdom",
+    "eject": "react-scripts eject",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "4.6.2",
+    "antd-img-crop": "^3.9.0",
+    "axios": "^0.19.2",
+    "copy-text-to-clipboard": "^2.2.0",
+    "crypto-js": "^4.0.0",
+    "echarts": "^4.8.0",
+    "mockjs": "^1.1.0",
+    "rc-color-picker": "^1.2.6",
+    "react": "^16.13.1",
+    "react-custom-scrollbars": "^4.2.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-rnd": "^10.3.3",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "3.4.1",
+    "redux": "^4.0.5",
+    "redux-actions": "^2.6.5",
+    "redux-persist": "^6.0.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.1.4",
+    "@commitlint/config-conventional": "^12.1.4",
+    "@monaco-editor/react": "^3.3.1",
+    "babel-plugin-import": "^1.13.3",
+    "customize-cra": "^1.0.0-alpha.0",
+    "husky": "^6.0.0",
+    "less": "^3.11.1",
+    "less-loader": "^7.2.1",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1",
+    "react-app-polyfill": "^1.0.6",
+    "react-app-rewired": "^2.1.6",
+    "styled-components": "^5.1.1"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,json,less}": [
+      "prettier --write"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie 11"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie 11"
+    ]
+  }
+}
