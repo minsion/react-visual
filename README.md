@@ -1,6 +1,5 @@
-**目录结构：**
-
-## install and start
+## 可视化大屏项目
+### 1.install and start
 ```
 yarn install
 
@@ -9,11 +8,11 @@ yarn start
 
 Runs the app in the development mode Open [http://localhost:8081](http://localhost:8081) to view it in your browser.
 
-## designer page
+### 2.designer page
 
 <img src="./public/1.png" />
 
-## preview page
+### 3.preview page
 
 <img src="./public/2.png" />
 
